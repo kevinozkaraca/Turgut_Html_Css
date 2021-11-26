@@ -1,0 +1,494 @@
+@media screen and (min-width: 1025px)
+{
+	@font-face
+	{
+		font-family: "monacor";
+		src: url("Menlo-Regular.ttf") format("truetype"),
+			 url("Menlo-Regular.woff") format("woff"),
+			 url("Menlo-Regular.woff2") format("woff2");
+	}
+
+	@font-face
+	{
+		font-family: "retror";
+		src: url("retror.ttf") format("truetype"),
+			 url("retror.otf") format("truetype");
+	}
+	
+	body
+	{
+		margin: 0;
+		padding: 0;
+		min-width: 455px;
+	}
+
+	html
+	{
+		margin: 0;
+		padding: 0;
+		min-width: 450px;
+		background-color: rgb(70, 70, 70);
+	}
+
+	/*----------style pour la SECTION 1  "entete du site"----------*/
+	.sectionDuSite1
+	{
+		width: 100%;
+		height: 180px;
+		min-width: 455px;
+		background-image: url("Maprevu.png");
+		background-position: 50% 50%;
+		font-family: "retror" ;
+	}
+
+	.imageTexteSection1
+	{
+		flex-wrap: wrap;
+		display: flex;
+		align-items: center;
+		text-align: center;
+	}
+
+	.turgutPNG
+	{
+		z-index: 0;
+		height: 250px;
+		width: 250px;
+		margin: 50px;
+		filter: drop-shadow(-15px 10px 10px black);
+	}
+
+    #titleH1
+	{
+		font-family: "retror";
+		font-size: 40px;
+		color:  white;
+		text-shadow: 0px 0 10px black;
+		display: block;
+		text-align: center;
+	}
+
+	#titleH2
+	{
+		font-family: "retror";
+		font-size: 35px;
+		color: rgb(0, 147, 191);
+		display: block;
+		text-align: center;
+	}
+
+	/*----------FIN de style pour la SECTION 1  "entete du site"----------*/
+	/*----------style pour la SECTION 2  "rattrapage"----------*/
+
+	.sectionDuSite2
+	{
+		width: 100%;
+		height: 180px;
+		min-width: 455px;
+		background: linear-gradient(360deg, rgb(240, 240, 153) 3%, rgba(255,255,255,1) 100%);
+		font-family: "retror" ;
+	}
+
+    .socialIcons{
+        position: relative;
+        width: 100%;
+		display: inline;
+        left: 45%;
+        top:150px;
+    }
+
+    .socialIcons a img {
+        width: 50px;
+        height: 50px; 
+    }
+
+	/*----------FIN de style pour la SECTION 2  "rattrapage"----------*/
+	/*----------style pour la SECTION 3  "le sommaire du site"----------*/
+
+	.sectionDuSite3{
+		align-self: center;
+		background: linear-gradient(360deg, rgba(255,255,255,1) 3%, rgb(240, 240, 153) 100%);
+		padding: 25px;
+		align-content: center;
+	}
+
+	.sectionDuSite3 ul{
+		padding-top: 55px;
+		display: inline-block;
+		width: 90%;
+	}
+
+	.sectionDuSite3 ul li{
+		padding: 10px;
+		font-size: 2rem;
+		border: blue 5px dashed;
+		background-color: cornflowerblue;
+		color:beige;
+		margin: 5px;
+		list-style:none;
+		font-family: "retror";
+	}
+
+	.sectionDuSite3 ul li:hover{
+		padding: 10px;
+		font-size: 2.2rem;
+		border: rgb(61, 247, 36) 5px dashed;
+		background-color: rgb(19, 138, 49);
+		color:beige;
+		margin: 5px;
+		list-style:none;
+		font-family: "retror";		
+	}
+
+	.sectionDuSite3 ul a{
+		text-decoration: none;
+	}
+
+	/*----------FIN de style pour la SECTION 3  "le sommaire du site"----------*/
+	/*----------style pour la SECTION 4  "les articles du sites"----------*/
+
+	.sectionDuSite4
+	{
+		font-family: "monacor";
+		font-size: 2.5rem;
+		background: rgb(70, 70, 70);
+		margin: auto;
+		padding: auto;
+		width: 80%;
+		align-self: center;
+
+	}
+	.sectionDuSite4 h3
+	{
+		font-family: "monacor";
+		font-size: 2.5rem;
+		padding-left: 5%;
+		position: relative;
+		bottom: 5px;
+		color:aqua;
+		text-shadow: 0px 0px 25px white;
+	}
+
+	.sectionDuSite4 p
+	{
+		font-family: "monacor";
+		font-size: 1.5rem;
+		padding: 0 25px 25px 25px;
+		color: azure;
+	}
+	.sectionDuSite4 p strong
+	{
+		font-family: "monacor";
+		font-size: 1.5rem;
+		color: rgb(255, 153, 0);
+	}
+	.sectionDuSite4 p em
+	{
+		font-family: "monacor";
+		font-size: 1.5rem;
+		color: rgb(233, 129, 216);
+	}
+	.sectionDuSite4 p mark
+	{
+		font-family: "monacor";
+		font-size: 1.5rem;
+		background-color: transparent;
+		color: rgb(1, 255, 14);
+	}
+	.PremiereDeSection
+	{
+		width: 280px;
+		height: auto;
+		margin: 25px;
+		float: left;
+	}
+	.IMGgif
+	{
+		width: 400px;
+		height: auto;
+		float:right;
+		margin: 10px;
+	}
+	.sectionDuSite4 h4
+	{
+		color: yellow;
+	}
+	.logoLangage
+	{
+		width: 120px;
+		height: auto;
+		margin: 15px;
+		padding: auto;
+		filter: drop-shadow(0px 0px 15px white);
+		float: left;
+	}
+	.imageSection4a
+	{
+		width: 40%;
+		float: left;
+		padding: 25px;
+	}
+	.imageSection4b
+	{
+		width: 40%;
+		float: right;
+		padding: 25px;
+	}
+}
+
+/*----------Style pour tablette et mobile----------*/
+@media screen and (max-width: 1025px)
+{
+	@font-face
+	{
+		font-family: "monacor";
+		src: url("Menlo-Regular.ttf") format("truetype"),
+			 url("Menlo-Regular.woff") format("woff"),
+			 url("Menlo-Regular.woff2") format("woff2");
+	}
+
+	@font-face
+	{
+		font-family: "retror";
+		src: url("retror.ttf") format("truetype"),
+			 url("retror.otf") format("otf");
+	}
+
+	body
+	{
+		margin: 0;
+		padding: 0;
+		font-family: "retror";
+		min-width: 315px;
+	}
+
+	html
+	{
+		margin: 0;
+		padding: 0;
+		background-color: rgb(70, 70, 70);
+		font-size: 50%;
+	}
+
+	/*----------style pour "l'entete du site"----------*/
+
+	.sectionDuSite1
+	{
+		height: 145px;
+		background-image: url("Maprevu.png");
+		position:static;
+		background-position:50% 50%;
+	}
+
+	.imageTexteSection1
+	{
+		align-items: center;
+		text-align: center;
+	}
+
+	.turgutPNG
+	{   
+        margin-top: 10px;
+		z-index: 0;
+		align-self: center;
+		margin: auto;
+		height: 200px;
+		width: 200px;
+		display:block;
+        padding-top: 10px;
+		filter: drop-shadow(-15px 10px 10px rgb(70, 70, 70));
+	}
+
+	#titleH1
+	{
+		font-family: "retror";
+		font-size: 2.5rem;
+		color:  rgb(137, 88, 66);
+		display: block;
+		text-align: center;
+        margin: 0;
+        padding-top: 25px;
+		text-shadow: 0px 0px 25px white;
+	}
+
+	#titleH2
+	{
+		font-family: "retror";
+		font-size: 2.2rem;
+		color: rgb(0, 147, 191);
+		display: block;
+		text-align: center;
+        margin: 0;
+        padding: 0;
+	}
+
+	/*----------fin de style pour "l'entete du site"----------*/
+	/*----------style pour la SECTION 2  "reseaux sociaux"----------*/
+
+	.sectionDuSite2
+	{
+		width: 100%;
+		height: 200px;
+		background: linear-gradient(360deg, rgb(240, 240, 153) 3%, rgba(255,255,255,1) 100%);
+	}
+
+    .socialIcons
+	{
+        position: relative;
+        display: inline;
+		text-align: left;
+		left:1%;
+        top:170px;
+    }
+
+    .socialIcons a img
+	{
+        width: 3.9rem;
+        height: 3.9rem;
+    }
+    
+	/*----------FIN destyle pour la SECTION 2  "reseaux sociaux"----------*/
+	/*----------style pour la SECTION 3  "le sommaire du site"----------*/
+
+	.sectionDuSite3
+	{
+		padding: 10px;
+		align-content: center;
+		justify-content: center;
+		background: linear-gradient(360deg, rgba(255,255,255,1) 3%, rgb(240, 240, 153) 100%);
+	}
+
+	.sectionDuSite3 ul
+	{
+		padding-top: 15px;
+		display: inline;
+	}
+
+	.sectionDuSite3 ul li
+	{
+		padding: 10px;
+		font-size: 2rem;
+		text-align: center;
+		border: blue 5px dashed;
+		background-color: cornflowerblue;
+		color:beige;
+		list-style:none;
+		margin: 5px;
+	}
+
+	.sectionDuSite3 ul li:hover
+	{
+		padding: 10px;
+		font-size: large;
+		border: rgb(61, 247, 36) 5px dashed;
+		background-color: rgb(19, 138, 49);
+		color:beige;
+		margin: 5px;
+		list-style:none;
+		font-size: 2rem;
+	}
+
+	.sectionDuSite3 ul a{
+		text-decoration: none;
+	}
+
+	/*----------FIN de style pour la SECTION 3  "le sommaire du site"----------*/
+	/*----------style pour la SECTION 4  "les articles du site"----------*/
+
+	.sectionDuSite4
+	{
+		font-family: "monacor";
+		font-size: 2.5rem;
+		background: rgb(70, 70, 70);
+		margin: auto;
+		padding: auto;
+		width: 90%;
+		align-self: center;
+	}
+	.sectionDuSite4 h3
+	{
+		font-family: "monacor";
+		font-size: 3rem;
+		padding-left: 5%;
+		position: relative;
+		bottom: 5px;
+		color:aqua;
+		text-shadow: 0px 0px 15px white;
+	}
+	.sectionDuSite4 h4
+	{
+		color: yellow;
+	}
+	.containerLOGOS
+	{
+		width: 100%;
+
+	}
+	.logoLangage
+	{
+		width: 90px;
+		height: auto;
+		margin: 15px;
+		padding: auto;
+		filter: drop-shadow(0px 0px 15px white);
+		float: left;
+
+	}
+	.sectionDuSite4 p
+	{
+		font-family: "monacor";
+		font-size: 2rem;
+		padding: 0 30px 25px 30px;
+		color: azure;
+	}
+	.sectionDuSite4 p strong
+	{
+		font-family: "monacor";
+		font-size: 2rem;
+		color: rgb(255, 153, 0);
+	}
+	.sectionDuSite4 p em
+	{
+		font-family: "monacor";
+		font-size: 2rem;
+		color: rgb(233, 129, 216);
+	}
+	.sectionDuSite4 p mark
+	{
+		font-family: "monacor";
+		font-size: 2rem;
+		background-color: transparent;
+		color: rgb(1, 255, 14);
+	}
+	.PremiereDeSection
+	{
+		width: 150px;
+		height: auto;
+		margin: 15px;
+		padding: auto;
+		float: left;
+	}
+	.IMGgif
+	{
+		width: 100px;
+		height: auto;
+		float:right;
+		margin: 5px;
+	}
+	.imageSection4a
+	{
+		width: 80%;
+		margin: auto;
+		padding: 10px;
+		align-self: center;
+		display: block;
+	}
+	.imageSection4b
+	{
+		width: 60%;
+		margin: auto;
+		padding: 10px;
+		align-self: center;
+		display: block;
+	}
+}
