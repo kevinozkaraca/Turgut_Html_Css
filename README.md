@@ -12,7 +12,7 @@ Turgut est un personnage fictif d'anatolie, à l'époque où les peuples turcs v
 
 ### Pour en savoir plus visitez mon site : 
 
- <a href="https://kevinozkaraca.github.io/The-Legend-Of-Turgut-LeSite/" target="_blank">Cliquer ICI !</a>
+ <a href="https://kevinozkaraca.github.io/Turgut_Html_Css/" target="_blank">Cliquer ICI !</a>
   <br/>
 
 ### Mes reseaux sociaux : 
